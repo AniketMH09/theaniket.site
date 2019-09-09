@@ -1,0 +1,782 @@
+.page_wrapper {
+  background-color:black;
+
+}
+
+nav {
+  padding-right: 100px;
+}
+
+.nav-link {
+  font-size: .875rem;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active {
+  color: black;
+  border-top: 2px solid #f26c4f;
+}
+
+#home {
+  padding-top: 100px;
+}
+
+/* #home::before {
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(#000,transparent);
+}
+
+#home::after {
+  content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(360deg,#000,transparent);
+} */
+
+
+.down_arrow {
+  margin-top: 140px;
+}
+.down_arrow_icon {
+  border: 1px solid #f26c4f;
+  background-color: #f26c4f;
+  padding: 25px;
+  color: white;
+  transition: 1s ease;
+  cursor: pointer;
+}
+.down_arrow_icon:hover {
+  border: 1px solid black;
+  background-color: white;
+  padding: 25px;
+  color: black;
+}
+
+.p-2 i {
+  color: #9e9e9e;
+  font-size: 20px;
+}
+
+.p-2 h2 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: 'Patua One', cursive;
+}
+
+.desc {
+  margin-top: 30px;
+  font-family: 'Patua One', cursive;
+}
+
+ .desc span{
+  padding: 20px;
+  border: 3px solid white;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.desc span::after {
+  content: '';
+  position: relative;
+  border-style: solid;
+  border-width: .725rem .725rem 0 0;
+  border-color: white transparent transparent transparent;
+  top: 100px;
+  right: 120px;
+}
+
+.there_box span{
+   bottom: 48px;
+  padding: 1.5rem 2.25rem;
+  color: white;
+  margin-bottom: -20px;
+  border: 3px solid white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: 1s ease-in-out;
+}
+
+#contact .container .row {
+  margin-top: 60px;
+}
+
+
+.there_box span::after {
+  content: '';
+  position: relative;
+  border-style: solid;
+  border-width: .725rem .725rem 0 0;
+  border-color: white transparent transparent transparent;
+  top: 70px;
+  right: 85px;
+}
+
+.about_me {
+  margin-top: 40px;
+}
+
+.port_title {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+#portfolio .row {
+  margin-top: 50px;
+}
+
+.up_arrow {
+  z-index: 9999;
+  position: fixed;
+  left: 100px;
+  top: 25px;
+  width: 90%;
+}
+
+
+.about_me_p {
+  line-height: 1.68rem;
+  opacity: .5;
+  margin-bottom: 1.875rem;
+  font-size: 1rem;
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.ts-column-count-2 {
+  column-count: 2;
+}
+
+dl dt {
+  color: #f26c4f;
+  font-weight: 700;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.colFlex {
+  margin-top: 60px;
+}
+.smile {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.portfolio {
+  margin-top: 80px;
+}
+.blinking{
+  animation:blinkingText 0.8s infinite;
+
+}
+@keyframes blinkingText{
+  0%{     color: white    }
+
+  99%{    color:#f26c4f  }
+  100%{   color: white    }
+}
+
+
+.live {
+  text-align: center;
+}
+.card {
+  overflow: hidden;
+}
+
+.text_color {
+  color: black;
+}
+
+.text_color2 {
+  color: white;
+}
+
+.card-img-top {
+  transition: .6s ease;
+  overflow: hidden;
+}
+
+.card-img-top:hover {
+opacity: 0.8;
+transform: scale(1.2) rotate(10deg);
+overflow: hidden;
+}
+
+.card_img {
+  overflow: hidden;
+}
+
+.card_img:hover .project_name_1 {
+  display: inline;
+}
+
+
+.project_name_1 {
+  color: white;
+  font-weight: 400;
+  text-align: centre;
+  position: absolute;
+  bottom: 130px;
+  left: 83px;
+ font-size: 1.4rem;
+ display: none;
+
+ }
+ .live {
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   height: 32px;
+   padding-top: 4px;
+   font-weight: 600;
+
+ }
+
+ .live a {
+   cursor: pointer
+ }
+
+ .live span{
+   margin-right: 5px;
+ }
+
+ .live_2 {
+
+   width: 100%;
+   background-color: black;
+   margin: 0;
+   text-align: center;
+   color: white;
+   height: 32px;
+   padding-top: 4px;
+ }
+
+ .live_2 a {
+   cursor: pointer;
+ }
+
+ .live_2 span {
+   margin-right: 10px;
+ }
+
+ .card-body {
+   padding: 0;
+ }
+
+ .jumbotron {
+   background-image: url("../assets/bg-keyboard.jpg");
+   opacity: .5;
+   }
+
+
+
+dl dd {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.line {
+border-bottom: 2px solid rgba(255,255,255,.2);
+}
+
+.contact_btns {
+  margin-top: 50px;
+  }
+
+
+.hire_me {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+  height: 150px;
+  width: 70%;
+  margin-bottom: 80px;
+  position: relative;
+  left: 60px;
+  padding-top: 55px;
+  background-image: url("../assets/bg-keyboard.jpg");
+  opacity: .2;
+}
+.hire_me_2 h1 {
+  font-size: 1.875rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 185px;
+
+}
+.hire_btn {
+  position: relative;
+  bottom: 140px;
+  left: 570px;
+}
+.hire_btn::after {
+  content: '';
+  position: relative;
+  border-style: solid;
+  border-width: .725rem .725rem 0 0;
+  border-color: #f26c4f transparent transparent transparent;
+  top: 40px;
+  right: 100px;
+}
+.contact_me_btn1 a{
+  color: white;
+  padding: 10px;
+  background-color: #f26c4f;
+  margin-right: 20px;
+  font-size: .800rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.contact_me_btn1 a:hover{
+  color: white;
+  padding: 10px;
+  background-color: rgb(212, 71, 41);
+  margin-right: 20px;
+  font-size: .800rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.skills {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.port-title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+.skill_cont {
+  width: 70%;margin-top: 75px;
+}
+.skill_p1 {
+  opacity: .5;
+  color: white;
+  margin-top: 30px;
+}
+
+.contact_me_btn2 a{
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  font-size: .800rem;
+  font-weight: 500;
+  border: 1px solid white;
+  transition: 1s ease;
+}
+
+.contact_me_btn2 {
+  margin-top: 40px;
+}
+
+
+
+.contact_me_btn2 a:hover {
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  background-color: white;
+  font-size: .800rem;
+  font-weight: 500;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.skill_bars {
+  margin-top: 75px;
+}
+.progress {
+  height: 6px;
+  margin-bottom: 20px;
+}
+.pg1 {
+  animation: example1 6s infinite ease;
+}
+@keyframes example1 {
+ 0% {width: 90%;}
+ 50% {width: 100%;}
+ 100% {width: 90%;}
+}
+.pg2 {
+  animation: example2 5s infinite ease-out;
+}
+@keyframes example2 {
+ 0% {width: 70%;}
+ 50% {width: 100%;}
+ 100% {width: 70%;}
+}
+.pg3 {
+  animation: example3 7s infinite ease;
+}
+@keyframes example3 {
+ 0% {width: 65%;}
+ 50% {width: 100%;}
+ 100% {width: 65%;}
+}
+.pg4 {
+  animation: example4 8s infinite ease;
+}
+@keyframes example4 {
+ 0% {width: 55%;}
+ 50% {width: 100%;}
+ 100% {width: 55%;}
+}
+.pg5 {
+  animation: example5 9s infinite ease;
+}
+@keyframes example5 {
+ 0% {width: 75%;}
+ 50% {width: 100%;}
+ 100% {width: 75%;}
+}
+
+
+.there_box span{
+  position: relative;
+  bottom: 48px;
+  padding: 1.5rem 2.25rem;
+  color: white;
+  border: 3px solid white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: 1s ease-in-out;
+}
+
+.there_box span::after {
+  content: '';
+  position: relative;
+  border-style: solid;
+  border-width: .725rem .725rem 0 0;
+  border-color: white transparent transparent transparent;
+  top: 70px;
+  right: 85px;
+}
+
+.contact_me_page {
+  background-image: url("../assets/contact.jpg");
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 200px;
+  background-size: cover;
+}
+
+.get_in_touch_1 {
+
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.add_image {
+  margin-bottom: 20px;
+   }
+   .add {
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0px;
+  }
+
+  .add1 {
+    margin-top: 10px;
+  }
+
+  .skill_p1 {
+    opacity: .5;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .let_con {
+    color: white;
+    font-size: 1.875rem;
+    margin-bottom: 1.56rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .contact_icon {
+    margin-bottom: 10px;
+  }
+
+  .contact_icon a {
+    cursor: pointer;
+  }
+
+  .icon_details {
+    margin-top: 40px;
+  }
+
+  #contact {
+   /* background: linear-gradient(to top left, #000000 0%, #ffffff 324%); */
+   /* opacity: 0.95; */
+   color: white;
+   padding-bottom: 50px;
+  }
+
+  .icon_mod{
+  width: 3rem;
+  border-radius: 50%;
+  border-color: rgb(180, 180, 180);
+  height: 3rem;
+  line-height: 3rem;
+  margin-right: 1.5rem;
+  color: white;
+  border: 1px solid rgb(180, 180, 180);
+  text-align: center;
+  }
+
+  .icon_name {
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+
+  }
+
+  .message {
+    height: 120px;
+  }
+
+  .form-control {
+    background-color: rgba(255,255,255,.1);
+    color: white;
+  }
+  .form-control:hover {
+      background-color: rgba(255, 255, 255, .2);
+  }
+
+  .form-control:focus {
+      background-color: rgba(255, 255, 255, .3);
+      box-shadow: none;
+      color: #fff;
+  }
+
+  .form-group {
+      margin-bottom: 1.5625rem;
+  }
+
+  .form-group label {
+      font-size: .8125rem;
+  }
+
+  .submit {
+      float: right;
+      font-weight: 500;
+      font-size: .875rem;
+      outline: none !important;
+      text-transform: uppercase;
+  }
+
+  .form-group label {
+    color: white;
+  }
+
+  .footer {
+    background-color: white;
+    height: 60px;
+    font-size: 80%;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: black;
+  }
+
+  .btn {
+    background-color: #f26c4f;
+    color: white;
+    font-size: .800rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s ease;
+    border-radius: 0;
+    float: right;
+  }
+
+  .btn:hover {
+    background-color: rgb(212, 71, 41);
+  }
+
+
+
+  @media(max-width: 900px){
+    .desc span{
+      padding: 15px;
+      border: 2px solid white;
+      color: white;
+      font-size: 2.0rem;
+      font-weight: 300;
+    }
+
+    .desc span::after{
+      content: '';
+      display: none;
+    }
+
+    .down_arrow {
+      margin-top: 70px;
+    }
+
+    .smile {
+      margin: auto;
+      margin-top: 50px;
+      padding: 50px;
+    }
+
+    .colFlex {
+      margin-top: 120px;
+    }
+    nav {
+      padding-right: 00px;
+    }
+
+    .hire_me {
+      margin-left: 10px;
+      margin-right: 20px;
+      margin-top: 150px;
+      height: 120px;
+      width: 70%;
+      margin-bottom: 80px;
+      position: relative;
+      left: 35px;
+      padding-top: 55px;
+      background-image: url("../assets/bg-keyboard.jpg");
+      opacity: .2;
+      text-align: center;
+    }
+    .hire_me_2 h1 {
+      font-size: 0.700rem;
+      text-align: center;
+      color: white;
+      position: relative;
+      bottom: 150px;
+      left: 12px;
+
+    }
+    .hire_btn {
+      position: relative;
+      bottom: 120px;
+      left: 145px;
+    }
+    .hire_btn::after {
+      content: '';
+      position: relative;
+      border-style: solid;
+      border-width: .725rem .725rem 0 0;
+      border-color: #f26c4f transparent transparent transparent;
+      top: 40px;
+      right: 100px;
+    }
+
+    .card {
+      margin: auto;
+      margin-top: 15px;
+    }
+
+    .there_box {
+      margin-top: 50px;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    #home {
+      padding: 0;
+      padding-top: 70px;
+
+    }
+
+    .hire_me_mobile {
+      display: none;
+    }
+
+    #skills {
+      padding: 0px;
+
+    }
+
+    .skill_cont {
+      width: 100%;
+    }
+
+    .contact_me_page {
+
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 40px;
+      text-align: center;
+
+    }
+    .add_image {
+      margin-bottom: 7px;
+      margin-top: 15px;
+       }
+       .add {
+       margin-bottom: 0px;
+      }
+
+      .add1 {
+        margin-top: 2px;
+      }
+
+      .skill_p1 {
+        opacity: .5;
+        color: white;
+        margin-top: 10px;
+      }
+
+      .contact_icon {
+         text-align: left;
+      }
+
+
+
+
+  }

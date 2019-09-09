@@ -1,20 +1,388 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="page_wrapper">
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link ts-scroll" href="#home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ts-scroll" href="#about_me">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ts-scroll" href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ts-scroll" href="#skills">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ts-scroll" href="#contact">CONTACT</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="d-flex flex-column">
+            <div class="p-2">
+              <div class="d-inline-flex p-0 text-white">
+                <div class="p-2">
+                  <i class="fa fa-facebook-official mr-2"></i>
+                </div>
+                <div class="p-2">
+                  <i class="fa fa-twitter mr-2"></i>
+                </div>
+                <div class="p-2">
+                  <i class="fa fa-pinterest mr-2"></i>
+                </div>
+                <div class="p-2">
+                  <i class="fa fa-instagram mr-2"></i>
+                </div>
+                <div class="p-2">
+                  <i class="fa fa-skype"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-2">
+              <h2>
+                I am aniket
+              </h2>
+            </div>
+            <div class="p-2 ">
+              <div class="desc">
+                <span>{{value}}</span>
+              </div>
+            </div>
+            <div class="p-2">
+              <div class="down_arrow">
+                <span>
+                  <a href="#about_me">
+                    <i class="fa fa-arrow-down down_arrow_icon"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <img src="https://mattfarley.ca/img/hero.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_me" id="about_me">
+    <div class="container">
+      <div class="title">About Me</div>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="https://mattfarley.ca/img/mf-avatar.svg" class="img-fluid smile">
+        </div>
+        <div class="col-sm-6">
+          <div class="d-flex flex-column colFlex">
+            <div class="p-2">
+              <div class="there_box">
+                <span> Hi There</span>
+              </div>
+            </div>
+            <div class="p-2">
+              <p class="about_me_p mt-5">Thank you for taking the time to visit. I develope stylish, clean and creative websites.I love to use my coding
+                skills to make super fast, super fun websites. Get in touch for you project
+                <a href="#contact">
+                  <span class="blinking">here.</span>
+                </a>
+              </p>
+            </div>
+            <div class="p-2">
+              <dl class="ts-column-count-2">
+                <dt>Name:</dt>
+                <dd>Pharakate Aniket</dd>
+                <dt>Phone:</dt>
+                <dd>+91 7276448001</dd>
+                <dt>Email:</dt>
+                <dd>aniketpharakate@gmail.com</dd>
+                <dt>Twitter:</dt>
+                <dd>Aniket@8001</dd>
+              </dl>
+              <div class="line"></div>
+              <div class="contact_btns">
+                <span class="contact_me_btn1">
+                  <a href="#contact">CONTACT ME
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </span>
+                <span class="contact_me_btn2">
+                  <a href="http://portfoiliobackend-env.bp537pjs6h.us-east-2.elasticbeanstalk.com/pdf">
+                    <i class="fa fa-download"></i>DOWNLOAD CV</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="port-title">Portfolio</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+            <div class="card_img">
+              <img class="card-img-top" style="width: 18rem;height: 200px;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhMWFhUVGBcYFhgXFxcWGhcdFxYYFxcXFxcYHSggGBolGxcXITEhJSkrLi4uHR8zODMsNyguLisBCgoKDg0OFQ8PFTAdFR0tKystLSstKy0rLS0rKy0tKy0rKzcrLS0uLSstLS03KzcrLSsrKy0tKys3KystLSsrK//AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQMEBQYCBwj/xABMEAABAwICBQkDCAcGBAcAAAABAAIDBBESIQUGMUFREyJhcYGRobHBBzLRFCNCQ1Ji4fBygoOSorKzFiQzk8LSJTRzwxU1U1Rk4vH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EAB4RAQEBAAEFAQEAAAAAAAAAAAABAhEDEiExQWEy/9oADAMBAAIRAxEAPwD1ljtvWPVMVebbDpTsW/r9CiUc5o61RWTjJvUoTG5lS6x4Fum/qorMwfzuXKqpzbuz2Xv2qRSt29YXWHNttifp4sifztVDep7P73Wv4Mpo+rCJnn+oFrSLqk1P0TIx1W97bCaZrmG4OJgp4mXyOXODxY8FfyU7twv2hERQNqiVRuWC+F1yR2A+hUt8E25n8TfioZoaglp5MC2La8dQOXRdA/M9Z7Tzrh2ZFnN2b9wHVcq+k0fUH6Lf3vwVRXauVj725IXcCOe7YM/s7UVn9KSkNw5ZkDZwyUJ8o5TIe7c9Vg74tWiqtTKt7r4obdL38DwZ1KKz2fVdyTLDmCDYyby0/YHAoKyCqGY2Z7/0Qbd5K5fUA3JPR47VdyagVJv87CLkn6Z9E5D7P5xtni2W9xx9VRnmPAF78PX8FIgN5BlsAt5q8Ps+lORqWD9kT/rT9LqG9hv8pb/knhb/ANRBk9CyY6qqvsDmR3/ZsNu+Vy2GIDnAcT2XLvRc6O1CMTpHfKb8o/GfmgM+aAPf4NCszqubAGd2QtkwD1/N1BRVDhc9du4Bo8SU1XS5kDdhb2AZ+JWgOqLTtnkz4Bg+li4JDqZGTczTXvfazp+70oM9CBj/AER5nPwATz389gB4ny9CtC3VOIG/Ky59LOFvsLv+ykN74pL/AKQ9Goihpn375T3ZDzUqYWeT9mNx8h6K5i1ahbkDJv8Ap8Tcrmv0fBC10zsVmtLnkuJGFgLjls6FRh9btZG0EDA0B1RIwcm054APrHDr2BeJ12kXyPL3vL3ONySbkkqXrVpx9VUSTv2vOX3WjJrR1BVFOy5C41r5Fzn7Vro1hJutfogOadlyo+r+jMQFhtW60bogNAyzXm3zXoxxE7QjyRzm5dIBWqo4AAMOzhw6lWUlNhsLK4pH7lcS5vLPqdu3OltER1MRjkHS129p3ELyDTMT4JXQyZOaewjc4dBC9za3Jee+1/RV4WVTRzoyGP6WuOR7Hea9nPLy5nbeHnj6rJQ6KoNzdQHVSWmmyUarhs6HTKvEyQTIj6Hhb4rh7swetdk5E77KOy5wdRRVVpGPE8cBe663FSJmC9uF/NRwMj1qKgXzCmQgAC29RS3n2UuHh1IL3VSt5WnxcJJ4/wDKnkj/ANKuFmfZ03+4tP25al/ZJUyvHg5aZECEIQCEIQCEIQIUIQgEIQgRCEqBEJUICyEqEAsT7Xq0x6MlttkLI+xxufAFbZee+22MnR1/szRk9zh5kIlfOMziSp+iWAuBKgSNzVnohhJCyraPT9V7ADqXoFBENu8LzrQLbWPBbvRtaCPNc9P35N+vC8LLrqmycowqBbJPU2ZBW2vLKLkKm1vpBLRVLDvifbrDS4eIVyzYqvWScMpKhx2CGT+QrqM9e4+XXuKcp3m3au3RLqGKwCNDgkSseuZG2CMNskH0nL6puM2LT934pah1nN6b+q7a0XaOj0QQZve7VHf6lSHkAnrTV/Vcuohlua7YMLcRytcnsH4Lq2ZUXTMuGnmf9mKQ9zHfBVF17OT/AMOpeJijcet7A8+LlpVU6sw8nTQx29yKMdzAPRWyIEIQgEIQgEIQgRCVCBEIQgEIQgEIQgVCEIBUOu2ivlNDPCBdxYSz9JnOb4hXyQhB8e1ENipejHgOW99rOp5p5jUxN+ZmJJt9W85lp4AnMdoXm4eWlc3w6lej6FrQALlaXR9WDvXl+jq42Wi0PXnFtWOtcVrM8x6fSTXsryj2BYzRtcLC5Wnpa0Wstca58Mdzt81eiUWWK9q2lRHR8iDzpyG2+60hzj5DtV9U6TjijdLI4NYwEucdw+K8E1m1zdV1TpXtIiHNiG9rRsJHE7St+3iPNm92ufiHJHknGwqbTxB4DmkEHYQpDKUrh6FTPHsy/IUSeQA2V2+A5qonpLuKD6Qmbdw6Ph+K7I5zeo+nxRKLOPV6Lt7bOPQ38+SCslFnHrUS+anPcSPFQ3Z9w81HUNOG09CqtaW3oJ/vxPYP1+YD/ErWZ1mk9Kr9ZGn5NG0fSmpWdj6mJrh3EojdaPjLRbgAOqwGSmJimO3rT6IEIQgEIQgEIQgEIQgElkqRAqEl0XQKhIhAqEiVAIQhBHrqJkrHRyNDmPFnNOwheKa4+yqWJxkowZY9uD6xvQPtjxXuV1yUHyg6kfG7C9rmkbQ4Fp7irjRrgF9E12i4ZcpY2u6wD5rMa06u01PSVFRFCwPije9t2gi7RfMcFzcZp3anpidGTk2DR6rUUT3C5s5xAuWtF3frbmjrXOiqfHEx5Fi4AkN5oz6AoFZTvZJiYSw4gGlptbMDaOl3gtMzOPUZbzrf9VA1mgkrW8nITG0G7W54P1t5PSsBpTQT6Y2eMjsO49IK9vbXHZLG2TpIse8fBV2sEVPUwGLki0nNpuDhPQtrvN+Mc9PqZv48x1PpHHG63MOXWejs81qIqLm5qwptHtiiDGDJoyttPE9ZUyeIMjJO4X7gsbXqjLCmuCevzVUaO5JHFamjjBguN48VHjpstm3NRXq0xuT0n1XVSc3noA81zOecB0+SWp2HpKCFMeaOpQh73HMeSm153dSgE2JttGaimKw2FuJKh6fOVGwbX1MXaWB8v/bup05u9vEC/ftUPSTSazR7eEssh/VppWg97wg3dNsUlQ4pg1pc4hrW3uSQAAN5J2BSmPBFwQQdhGY70R0hCEAhCEAhCLoBCLqqn0/EyfkDjxXYHODCWMdJlGxz9znbuscRcLRY/ULW6WvfVh0TWxwSYY3tJ54Ln2BB3hrWm4P0tnF/XLRbOSqKuSepAihc9rI55ImN5NjjcNjIxEn7V1kvZPqpDNQCaUzfOSSXayeaJjgw4BibG9oPunagstPaTlrNKs0ZBM6OCJnKVL4XYXuI+rxj3QLsGX2jwWo1Lke6jiMj3SE48L3ZuezlH8k4neTHgz3rzPUqEfKtJCmaGGWX5LBh+raXyGSQfosjDrna7CPpL2Klp2xsbGwWaxoa0cA0WA7ggdWF1l0xJU18eiqd7mNA5SskYbOawAHkmOGbS67QSMxibbetxLIGtLjkGgk9QFyvHvZnVvkNbXDOoqpRDACL2c4GVxP3GNcxx6GcbIPStXLA1DY78lHLgju5z82xs5TCXEmweXNtxa5XKy9eyrpjQ09DEJIseGpe/wCizIueTcHG4l7r2Nz1rTlwG0oOkl0XWVe1+kHkYnMoWEt5pLX1bgbO5wzbTg5ZZvN88PvBZVOtFFG/k31lO1+zC6VgPVa6tGSBwDmkEHYQbg9RG1RqbRsMcYijhjYwCwY1jQ23C1rLPV+rslMTUaMsx22SlJtBPvIa3ZDKc7ObYX2goNWqPXv/AMurP+hJ/KVK0BpmOqiEsdxmWvY4WfG9uTo3jc4FRNez/wANrT/8eb+QoMhomrvAxoJ5rGi43kgDwuFPqxika3diB67Xd5gKn1WN6WAccJJ6ru8wFeQNGPbsuc+6/iqJZYCO9RzTqSTsHb6+qC26CI6mO7iPPNM6ai+aNhcmwAO+5AsrVsezoUPS7L8m374Jy3N/IQVLqPDEGgbBn6pyPR4tmrJ0WIW4p7kkF88c789CZndfvS1brOHHP0XB2Z/ayQM149FXOcM+wd6sa47FWAXPW7yUU0ZbOPHIeCZkudKUzb5Ngqnn96nYP5in2R3ffr8/wXGjedpR5t/h0oHVyszj/wBkINlDYgcD6qPJoSMEuhvA/beKzQT9+O2B/WRfgQpEIsG9imIini0q+Jwjqw1uIgMmbcRSE5BpubxPJ2NcSDlZxOSmaU0iyBmNwcblrWtYMTnucbNa0bye4C5NgCVIqIGva5j2hzXAhzXAEEHaCDtCyOmqOanfTPbimpoJxIRm6WFpilhd0yxgS4vtNw/SB5oXMGm3coyOenkh5UkRuc6N7S4AuwExuOF2EEi+Rsc7q5VY+iZO+KflS+NlnxtaW8mXWIElwLuycbC9t9lYSyBrS5xAaBckmwAG0knYEHm3tbqJflOjYYXlrnzEiznNBOKJrcWEg25x7CVJ05pk0WkqNj6p5Y+OZ1UHu5pFvmiyMZMdjBa0NFzkMys97Sap9RX6PMV4mueWQTOuMTjJGDIGizgwEtsbgnMjKxO11R1GZSvdPPIampf9Y8Ehg+zGHFxb13ugwkGnq2vmnrBPPFR0zwOTguHtaWvwvLQDjLSGOcCDkTbYrXS+lHGBmkYg4ubFTS1rXBzYZHxujdExpIylEh95txhFnbWqVo3VCqgbW0TGAwVkmJs4e0cnG8YZWOZfFymC4bYEbyQtTrxoN9Vo+algwh7mtwAmw5j2uDSbZXDbIKDXnWHldDcoxhDqqEODCRdjDhMj3EbQA4DpLmjepfswmZDoeGR7g1jWzPcTsAEsjiUkGrE0mj5YZw1kz6ZtPG0OxCMRx2YMWQJdJdxtuwjPDdUvs6pamWnho5qeSGGle98xkGHlnco6SKJgO1gJDnO2HC0C4JQN+w6JjhWT255msCdoa4Y7W3XO3jYcFxr/AKdlq66DRVNK6Nj3gTSMJGI3OJrXD3gwNdcA2LgQfdKovZ3FMTXRxyS4Ynh0sMbgx0zcUjX4JLYmvGHIAi+y4vcbzSerQlkoK/R/Jf3dowMcXMjkie02Ae1ri0gPcQbG9zdBS6JqZqemrqMRVDpI4Q213SsbIYXcpIJnEtZG4YJAwkHM2bfJOew7RrRSGoJxOL3sYDsjbzMdulxa254NaNy22gtEmKOTli10s73yTFvu3cA0MbfMtaxrWAnbhvvWK1Upq2hjn0bFTvLzM4wVDh8w2J7W/OvdfnPbY/NjMm2wZoqVoStfNp6tJkcIqaFsYbjOC5wElzb2uDyme5ZStMum9Izsa48hTxl8EbiWskLSzCX8BISTitcNIsvQ4dQqVr8YMgxRtjmaH2bUBpuTNldxcfesRfYbglM1eqczK2aso5Y4zURcnKHtccLgGhsseE5kBo5psDxQQ9WJJqijFOyKSKJ0kzTI5zeZAJpLRROa4uc/BaMOyAFyDkL7eGJrGhjAGtaAGgCwAAsABuFkxonR7KeGOCO+CJjWNvmbNFrk7ydqlIhEISIMnrBTOo5//EYWksNm10bRcvYMm1DWjbJHv3lt+AU3XOVsuiqt0bg5r6WYtcDcEGJ1iCNoV+sfrLqtEylqnQSTQtMUrnRRvtE44HE/NuBDQd4ba6DL6izA0sfRl2q30K8vdI8gjMjM33kWt2LM+z2otSC24n4rU6vuxR4gLYnFBaP2hM0pJBPSbd9k1WzYWvdfO1h17B4p6gYRGwEZ2VEsBVGnHPY24dcm7W7tufeLKxqpMLS4bQFU6UyijxZkYbnstdBOoMWBmM84DO2/cpRUekdzR+dq5a69zxJ+Hoguan/Fb1O9Au3R7Ou6YkzmBv8ARPndSZHZgIImkN3V6qthfmT1p/SNRt6goWO2W8tKil0c/EerLwv6rrVRl66sfwZTR9WHlnn+oEaLZbtJ8rJvUm5mrpCOb8oaB04KeIebiqNpLk3Lb0rj5aR7zSOnaO8J24yvvXToQdqiOYqtrthT2MKHPTN2EDPs8VU0cEzXXxE3Ow7ggsnaEhuXNDoyTc8lI+K5O0uEbgHHpISt0JDcFwdIQQRysj5QCNhDXuIB6QFOi2ZqBp3TcNJHykzrXcGMaM3yPdk2ONv0nE7kGY9qmgZp4qeemZyk1NM2QMFrubcE2uQMnNYeoFbdhuL2t0cFX/8AizcbY/rCAXNBvh4glWIQKhCEAhCEHlcOiptG6YlqWwyyUlSH3MTHSFjnkPIc1tyPnGnPZZw4FbfUqklioomTNwyc9zmZHBykj5Gx5Zc1rg3sV6kQIhKkQCChBRSFIUqREIkSoQCgawtvS1A4wy/03Keoulm3gmHGOQd7Cg8I1BqQIHgnYDbpJ3eC9G0WMMANrWaTbsXj2pM/ODegFevlxbA7Zciw4Z80eaDv5MXNjaRcXBdfoBI8bKykIDb7h6Lhu5LWtuwjiLd6ohaTmtGCDtIHYVWVdcHCMHiPVP6dkyDL2sAe+4Hqqpj2h2J2wZjotwHaUGnkcGsvssPRM0cdmNBOds1D0jPhwG5LZC1pAz3EggdJtmn4ZyRstbKyC+d/iN6Mj3fGy7qn2dboXNM/FI4W2WPikrM5D1DxRFXpFmLw8004Z3+6lqye8/FcTbD1eqjo/TG7cuBS+z7Onlf9uqqD+5KYx/ImKB5wdimagR4aCD75kk/zJXv9VUaVztilRm4CgVMtiOnLvUylPNH53qBwhFkqaqpC1jnNFyASBe1zbIX3IIumdKxU0TppnYWNBJNibWH5Hcvn3Sesc1TW/Ly92FuIUjH2PItdYFwAAAJ47ek2BUjXLWSatqHM5W0MV8RblizOQHXkONrpzVPQTqqUZc0W6gBsCo9D9mtLIWmaW5c/O5XoIULRNCImBo3BTlAIQhAIQhAIQhAiEqRAiEqRAhSJSgopEhSpEQBcVIuxw4tcPArtBGRCD5Z1NdadvRbwC9imzbGzi5uzg3M+S8Y0CcFVbg8juNl7HQSh7mX2taT32CoubHGzgA6/hb1TelnO+bDQSS9vHZvvwT0Ts0485oik0o4F4G25A8Lqjq3hzmtbmS9rRluuAfVW2k8ueCL8Ok5Kv0PETLCbbA4nsFj4kIq3lixSjgw7LXFw3I9G1dMlAGe0knLPaSpAeMVxwJNhbZlzukWKbhZkM0RfaO993U1O1jRiJ6kmjxz5OzwAXFa/ndnqgpdIk3Fj+c01UP5p6h5p6ouHD88UyRzTlfZ4lR0GPLIHO4McT2AlWGpl46Shidb/AJePvEbL+JVNrK4s0dUOG0QSW/cNlp6SkAMNtscbW9Q5t/5VUStIv51uA8yFYaNN4wevzVPVvzkPQPAH4qbR1zI6cyvOFjLknq9ehQdad03HSsBfic92UcbBifIeDW+uwLzXXL2hiVgpoQWSvymF78ltDo8Q2nLMjK3aqP2k63vjc5rXYamVvzhG2njPuwNO55GbiN5XlejY3SSXF/jddccI2dFT8vI2KMDM5kDM8Sejh+K941R0C2niaAM7ZrHezDVEsAnlGZ2XXqQFlKpUIQoBCEIBCEIBCEIBCEIESJUiBEFKkQIkSpEAF0EiUIPlQtwVcvRLIO57l6vq++7Ad9gO5YXS2iiKyoy+vl/qOK3erkVmDqCo0NKTnlvy6V3Nexttsm6QnDnxPmbeCeJIaSBcojPTQC1nG1zs6jn5qZFSAxnCS1wa5rSDsvb4BV2k5y94tkL4e3FY9ynBw5M2JBGIi5sM7taSeCK7ja8NcHOvZrWjK1zvd23Cca5JI+7Cdv4b0zjAtdEaXRZ5pO85964qTzuwea6oG8wWyXFV7xHD4IqqqxzsuA8imy42t+j5/gpFQBi7vJRmu3DiPVRULW//AJB7N8hijH7SVjP9S29MMz0WHhf1WL1hbiFKz7VVS36mzNkPgwrdRNyVRWaQNmydJy/hCxGtetIp6YE54HHkmnPlZh9IjfHHtPF1gtRrVpBkTHYnBowlz3bcDB7zrb3EkNaN5svnfWjTT6ucuAwsaMMTL35Ng2C+9xzJO8knqscqmeV80hL3EucSXOOZJJuSeleo+zTQ1IHB80gy2NwvN+s4VitBaHxEZZL0/V+iDOSAAyaL7tp/+qivS2aw0jAGh9rD7D/9q6p9aKZ5LWvJI+471C84dNicTxv3C3rdOaN+bxuG05+PwCK9Kl05C0FxLrDbzSocmttOPt/urHmtcYyNl9nb+AVZJK4NBBzyv4lBvhrlAcw2XL7rfVyX+2MH2Ze5v+5ef0st2rku2Hrt6Ir0bRWtUU7DIxkgAe9nODQbsdgOxxyvdODWNn2H7L/R4248Vj9TGWo4nA815kk6+UkfLfucp0PuA/db4yKDQO1kaPq37uG/t6EsGsTXWtG7NodtG+/wWZn49PlynwUqjBuwcI2eqIvqjWBrQSWOyvvGdgD6pKzWARsx8mTe2VxvI+Kzukxmc7bT/HGPRO6cZ/dyd4aHdwBVF3LrEBFyvJmx3Yh8EwNaQcXzRyxfTGeG3RxICoXDFBAwn3nDu5x8gm4cy371if1pLkdzEGlfrFb6rj9Phf7vQVxLrJb6rj9P72H7KpI3XtxOfeQfJxTE7vJo7w53mQoq3freRb5jbf6zhb7qX+1p5VkQh99r3Xx7AzCNmHeXhZudt3N6LXT1KQak/diZb9o99/6QQatmniW4uT/i6OpDNPusCYgLi/veGxUFPLeMD7viRZTXjuVRUVOjWvfJKW2Lnvdbb/8Aua7ji5Jgy3gKyDeaPztN01UbB1jxy9UHQk5l+hK9zuSzzdbZsuiY83rTekYgY8JJA32RFfTvYXBv0g4utwy/PghsIGJoGTSLdud++6eZGWMJysNl+AChU85tna5biOed7m2XDainpjk1vEqPJMLkHcn6l9nAcB+fJVJfckjifNVHo8DLWbwsotZ77kIXKxV1xFx1nyTUOduv0QhFRa9uKroGD/3DnH9nTTu87LbzyhjC47hs48AL8TkhCsSvn72h6wyVcxgiOJgN3lux7hlf/psvZvTc78qTRGg752NhtPE/kIQrUj0Ok0U1kbDhtdl/3rAeasC7AXYfo+Qbt70IUVWsYRc8bD1PmFM5wY5xz92wsd7rHZ1oQinBJijzyviI8QotUy46L2HdbLvKVCI5x2HUfxS1JAbiOxrS4nqF/RKhFX+ihyFDTtP0IGNt0ljGX8SVasY10Ae3K4aO521CEEWoiGE/reId/vUyL/Etwa0eF/VCERD0oRyjhfZHe/D5wE+SnSOBjJBywehQhBVVQw8g2x5kZOW7IDd2riAEbsm7P1I87/rOQhA8Ra/QD4Aj0CaqBmesjusB/KUiEVEqr3t+chZcaLkxSyuscnsZ2Mgaf5pXeKEIOdG1OIvG5r2tHYb91lewS4mE9fr+CEIiS4c3uTBA5oI33HZmlQgJ3ZjrATOl5GhhvwNghCIZAayNsV783fvvtuqmnjPLSEm4JAFtwblbxPihCDutfzZHG+QyWflmLbC+4JEKj//Z"
+                alt="Card image cap">
+              <span class="project_name_1"></span>
+            </div>
+            <div class="card-body">
+              <div class="live">
+                <a href="www.theaniket.site" target="_blank" class="text_color">
+                  <span>
+                    <i class="fa fa-eye"></i>
+                  </span>LIVE VERSION</a>
+              </div>
+              <div class="live_2">
+                <a href="https://github.com/AniketMH09/theaniket.site" target="_blank" class="text_color2">
+                  <span>
+                    <i class="fa fa-github"></i>
+                  </span>CODE LINK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="card_img">
+              <img class="card-img-top" style="width: 18rem;height: 200px;" src="https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/frontpage-menu.jpg"
+                alt="Card image cap">
+              <span class="project_name_1">THE HEAVEN</span>
+            </div>
+            <div class="card-body">
+              <div class="live">
+                <a>
+                  <span>
+                    <i class="fa fa-eye"></i>
+                  </span>LIVE VERSION</a>
+              </div>
+              <div class="live_2">
+                <a>
+                  <span>
+                    <i class="fa fa-github"></i>
+                  </span>CODE LINK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hire_me_mobile">
+    <div class="hire_me">
+    </div>
+    <div class="hire_me_2">
+      <h1 data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">Let’s Work Together On Your Next Project!</h1>
+      <span class="contact_me_btn1 hire_btn" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">
+        <a href="#contact">HIRE ME NOW</a>
+      </span>
+    </div>
+  </section>
+
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="title" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">My Skills</div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="skill_cont">
+            <!-- <h4 class="skill_h4">Every Day is a New Challenge</h4> -->
+            <p class="skill_p1">The main area of my expertise is front end developement (client side of the web).</p>
+            <p class="skill_p1">HTML,CSS,JS(TypeScript),bulding small and medium web apps with Angular 2+, animations and coding interactive
+              layouts.
+            </p>
+            <p class="skill_p1">I have also full stack developer experience with server side language like Node JS </p>
+            <div class="contact_me_btn2 skill_btn">
+              <a href="#contact">CONTACT ME</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="skill_bars">
+            <h5>JavaScript</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated pg1 bg-danger" style="width:40%;"></div>
+            </div>
+          </div>
+          <div>
+            <h5>Angular</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated pg2 bg-danger" style="width:40%"></div>
+            </div>
+          </div>
+          <div>
+            <h5>HTML 5</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated pg3 bg-danger" style="width:40%"></div>
+            </div>
+          </div>
+          <div>
+            <h5>CSS 3</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated pg4 bg-danger" style="width:40%"></div>
+            </div>
+          </div>
+          <div>
+            <h5>Node JS</h5>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated pg5 bg-danger" style="width:40%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact_me_page" id="contact">
+    <div class="container">
+      <div class="there_box get_in_touch_1">
+        <span>Get In Touch</span>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-xs-12 col-md-3" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+          <div class="add_image">
+            <i class="fa fa-map-marker" style="font-size:48px;color:#f26c4f"></i>
+          </div>
+          <div class="add">Address</div>
+          <div class="skill_p1 add1">732/4 Savitri
+            <br>Kolhapur 416007</div>
+        </div>
+        <div class="col-sm-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="add_image">
+            <i class="fa fa-phone-square" style="font-size:48px;color:#f26c4f"></i>
+          </div>
+          <div class="add">Phone</div>
+          <div class="skill_p1 add1">+91 7276448002
+            <br>+91 7020274593</div>
+        </div>
+        <div class="col-sm-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <div class="add_image">
+            <i class="fa fa-envelope" style="font-size:48px;color:#f26c4f"></i>
+          </div>
+          <div class="add">Email</div>
+          <div class="skill_p1 add1">aniketpharakate@gmail.com</div>
+        </div>
+        <div class="col-sm-3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+          <div class="add_image">
+            <i class="fa fa-commenting" style="font-size:48px;color:#f26c4f"></i>
+          </div>
+          <div class="add">Facebook Chat</div>
+          <div class="skill_p1 add1">aniketpharakate</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="let_con">Let's Connect</div>
+          <div class="d-flex flex-column">
+            <div class="contact_icon">
+              <a>
+                <i class="fa fa-facebook icon_mod"></i>
+                <span class="icon_name">Facebook</span>
+              </a>
+            </div>
+            <div class="contact_icon">
+              <a>
+                <i class="fa fa-twitter icon_mod"></i>
+                <span class="icon_name">Twitter</span>
+              </a>
+            </div>
+            <div class="contact_icon">
+              <a>
+                <i class="fa fa-instagram icon_mod"></i>
+                <span class="icon_name">Instagram</span>
+              </a>
+            </div>
+            <div class="contact_icon">
+              <a>
+                <i class="fa fa-skype icon_mod"></i>
+                <span class="icon_name">Skype</span>
+              </a>
+            </div>
+            <div class="contact_icon">
+              <a>
+                <i class="fa fa-pinterest icon_mod"></i>
+                <span class="icon_name">Pinterest</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="let_con">Send Me a Message</div>
+          <div class="icon_details">
+            <form (ngSubmit)="f.form.valid && onSubmit(f)" #f="ngForm" novalidate name="form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Name *</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Name" name="name" [(ngModel)]='data.name' required
+                    #name="ngModel" [ngClass]="{'is-invalid': f.submitted && name.invalid}">
+                  <div class="invalid-feedback">
+                    Please enter name.
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Email *</label>
+                  <input type="email" class="form-control" id="inputPassword4" placeholder="Email" name="email" [(ngModel)]='data.email' required email
+                    #email="ngModel" [ngClass]="{'is-invalid': f.submitted && email.invalid}">
+                  <div class="invalid-feedback">
+                    Please enter valid email.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Subject *</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Subject" name="subject" [(ngModel)]='data.subject'
+                  required #subject="ngModel" [ngClass]="{'is-invalid': f.submitted && subject.invalid}">
+                <div class="invalid-feedback">
+                  Please enter subject.
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Message *</label>
+                <textarea type="text" class="form-control message" id="inputAddress2" placeholder="Message" name="message" [(ngModel)]='data.message'
+                  required #message="ngModel" [ngClass]="{'is-invalid': f.submitted && message.invalid}"></textarea>
+                <div class="invalid-feedback">
+                  Please enter message.
+                </div>
+              </div>
+              <button type="submit" class="btn">SEND A MESSAGE</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="footer">
+      © 2019 ThemeStarz, All Rights Reserved
+    </div>
+  </section>
+
+</div>
